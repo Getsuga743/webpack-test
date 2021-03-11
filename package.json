@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node ./scripts/create-env.js && webpack --config webpack.config.dev.js",
-    "build": "webpack --config webpack.config.js",
+    "dev": "webpack --config webpack.config.dev.js",
+    "build": "node ./scripts/create-env.js && webpack --config webpack.config.js",
     "build:watch":"webpack --watch --config webpack.config.js"
   },
   "repository": {
